@@ -29,4 +29,4 @@ jobs:
         app-name: 'homelycare'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_04373091502f4ff294f5011c123f43ec }}
-        package: '${{ github.workspace }}/target/*.jar'
+        package: '${{ github.workspace }}/target/*.war'
